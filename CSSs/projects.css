@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200vh;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: #6b4b2d;
+    z-index: 999;
+    position: fixed;
+}
+
+.logo {
+    font-weight: 700;
+    text-decoration: none;
+    color: #c78d58;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: #c78d58;
+    font-size: 1.2em;
+}
+
+nav a:hover{
+    color: #e8bc95;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+section .icons-box {
+   background-color: #8e653fdc;
+   width: fit-content;
+   position: fixed;
+   right: 5vw;
+   bottom: 5vh;
+   border-radius: 10px;
+   padding: 5px 10px;
+   z-index: 999;
+}
+
+
+
+section .icons-box .icons a{
+    text-decoration: none;
+    color: #724011;
+    padding: 5px;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+section .icons-box .icons a:hover{
+    color: #dc9857;
+}
+
+.projects-place{
+    background-color: rgba(255, 255, 255, 0.874);
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.projects-place h1{
+    font-size: 5em;
+    color: rgb(119, 68, 2);
+}
+
+.project-card {
+    border: 3px solid #8e653f;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 40px;
+    font-weight: 400;
+}
+
+.project-card h2 {
+    font-weight: 200;
+    font-size: 3em;
+    color: #bb7d43;
+}
+
+.project-card-description {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+    font-size: 1.2em;
+}
+
+.project-card-description a {
+    text-decoration: none;
+    color: #c77d38;
+    transition: 0.5s;
+}
+
+.project-card-description a:hover{
+    color: #995f29;
+}
+
+.project-card-description p{
+    color: #c77d38;
+}

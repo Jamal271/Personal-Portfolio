@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: #6b4b2d;
+    z-index: 999;
+    position: fixed;
+}
+
+.logo {
+    font-weight: 700;
+    text-decoration: none;
+    color: #c78d58;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: #c78d58;
+    font-size: 1.2em;
+}
+
+nav a:hover{
+    color: #e8bc95;
+}
+
+.parent {
+    width: 90%;
+    margin: auto;
+    height: 200%;
+    padding-top: 10vh;
+    min-height: 100vh;
+}
+
+.field {
+    background-color: rgba(244, 203, 152, 0.808);
+    margin: 10vh auto;
+    width: 85%;
+    padding: 2%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.field-name{
+    font-size: 3.5em;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #c37c3a;
+}
+
+.certification-card{
+    border: 3px solid #c37c3a;
+    height: fit-content;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.certification-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.certification-info{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #bb6617;
+}
+
+/* .certification-info h3{
+    width: 10px;
+} */
+
+.certification-info a {
+    text-decoration: none;
+    color: #794413;
+    transition: 0.4s;
+}
+
+.certification-info a:hover{
+    color: #da6d08;
+}
+
+

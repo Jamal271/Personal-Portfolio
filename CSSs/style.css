@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: #6b4b2d;
+    z-index: 999;
+    position: fixed;
+}
+
+.logo {
+    font-weight: 700;
+    text-decoration: none;
+    color: #c78d58;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: #c78d58;
+    font-size: 1.2em;
+}
+
+nav a:hover{
+    color: #e8bc95;
+}
+
+section {
+    padding: 100px 150px;
+
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.main div{
+    text-align: center;
+}
+
+.main h2{
+    font-size: 6em;
+    color: #452c15;
+}
+
+.main h3{
+    font-size: 2em;
+    color: #3b342e;
+    padding: 25px 0px;
+}
+
+.social-icons{
+margin-bottom: 60px;
+  
+}
+
+.social-icons a{
+    color: #694423;
+    font-size: 3em;
+    margin: 25px;
+}
+
+.social-icons a:hover{
+    color: #4c3a2b;
+    transform: scale(2.0);
+}
+
+.main-btn{
+    
+    padding: 10px 50px;
+    background-color: #6b4b2d;
+    text-decoration: none;
+    color: #c78d58;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.main-btn:hover{
+    background-color: #c78e58cb;
+    color: #6b4b2d;
+}
